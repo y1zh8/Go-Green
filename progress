@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>how to use</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<style>
+	body{background-color:#F2F2F2}
+	.btndetail{
+		font-size: 18px;
+		background-color:#5E6C5B;
+		color: white;
+	}
+	.fontcolor{
+		color:#5E6C5B;
+	}
+
+	.header{
+		color:#5E6C5B;
+		font-size: 20px;
+	}
+	.fontsecondcolor{
+		color:#8CA187;
+	}
+
+	.pp{
+		font-size:15px;
+	}
+
+	.headerdetail{
+		font-size: 18px;
+	}
+
+	.borderstyle{
+		border-style: solid;
+		border-color: #8CA187;
+
+	}
+
+	.slides{
+		display: grid;
+		grid-auto-flow: column;
+		gap: lrem;
+		overflow-y: auto;
+		overscroll-behavior-x: contain;
+		scroll-snap-type: x mandatory;
+		scrollbar-width: none;
+	}
+
+	.slides ＞ img {
+		scroll-snap-align: start;
+	}
+
+	.slides img {
+		border-radius: 5px;
+		width: 540 px;
+		object-fit: contain;
+	} 
+
+	.slide::-webkit-scrollbar {
+		display: none;
+	}
+
+	.pic{
+		border-radius: 3px;
+	}
+
+	.header-h3{
+		color:black;
+		font-size: 20px;
+	}
+
+	ul.demo{list-style-type: none;
+	  				margin: 0;
+	  				padding: 0;
+					}
+
+	p,h1,h2,h3,h4,h5{font:  700 2em font-family: 'Potta One', cursive;
+		font-family: 'Zen Kaku Gothic New', sans-serif;} -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Potta+One&family=Zen+Kaku+Gothic+New:wght@500&display=swap" rel="stylesheet">
+
+	/*footer*/
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header h1{
+    width: 144px;
+    height: auto;
+}
+.fw-b{
+	font-weight: bold;
+}
+.ta-c{
+	text-align: center;
+}
+.pt-2{
+	padding-top: 2px;
+}
+.pt-4{
+	padding-top: 4px;
+}
+.pt-56{
+	padding-top: 56px;
+}
+.pt-80{
+	padding-top: 80px;
+}
+.pb-2{
+	padding-bottom: 2px;
+}
+.pb-4{
+	padding-bottom: 4px;
+}
+.pb-56{
+	padding-bottom: 56px;
+}
+.pl-8{
+	padding-left: 8px;
+}
+.pl-24{
+	padding-left: 24px;
+}
+.pr-24{
+	padding-right: 24px;
+}
+.m24{
+	margin: 24px;
+}
+.m-4{
+	margin: 4px;
+}
+.mt-4{
+	margin-top: 4px;
+}
+.mt-32{
+	margin-top: 32px;
+}
+.mt-80{
+	margin-top: 80px;
+}
+.mt-112{
+	margin-top: 112px;
+}
+.mb-2{
+	margin-bottom: 2px;
+}
+.mb-40{
+	margin-bottom: 40px;
+}
+.ml-120{
+	margin-left: 120px;
+}
+.mr-8{
+	margin-right: 8px;
+}
+.mr-120{
+	margin-right: 120px;
+}
+.border-1-s-dg{
+	border: 1px solid #525252;
+}
+.border-b-1-s-dg{
+	border-bottom: 1px solid #525252;
+}
+.border-r-24{
+	border-radius: 24px;
+}
+.border-r-108{
+	border-radius: 108px;
+}
+.d-f{
+	display: flex;
+}
+.fd-c{
+	flex-direction: column;
+}
+.jc-c{
+	justify-content: center;
+}
+.jc-fe{
+	justify-content: flex-end;
+}
+.jc-sb{
+	justify-content: space-between;
+}
+.jc-sa{
+	justify-content: space-around;
+}
+.jc-se{
+	justify-content: space-evenly;
+}
+.ai-c{
+	align-items: center;
+}
+.ai-b{
+	align-items: baseline;
+}
+.m-w-592{
+	max-width: 592px;
+}
+.m-w-1200{
+	max-width: 1200px;
+}
+.w20{
+	width: 20px;
+}
+.w24{
+	width: 24px;
+}
+.w32{
+	width: 32px;
+}
+
+.bgc-lg{
+	background-color: #F2F2F2;
+	background-size: cover;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+		</style>
+
+	
+
+</head>
+<body>
+	<div class="container">
+<!-- 
+	 	<span>GOGREEN</span>
+		<img src="gglogo_工作區域 1.png"> -->
+
+			<div class="container">
+	<ul class="nav d-flex justify-content-center align-items-center m-5 headerdetail">
+			<li class="nav-item">
+			  <a class="nav-link header-h3" aria-current="page " href="#">關於我們</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link header-h3" href="#">購物流程</a>
+				  </li>
+				  <li class="">
+				  	<a class="navbar-brand" href="#">
+							<img src="https://img.onl/yywJIE" alt="" width="120" height=120 class="center" d-inline-block align-text-center><!-- <a class="header">GoGreen</a> -->
+						</a>
+				  </li>
+				   <li class="nav-item dropdown">
+			          <a class="nav-link dropdown-toggle header-h3" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+			           所有商品
+			          </a>
+			          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			            <li><a class="dropdown-item header header-h3" href="#">小農合作專區</a></li>
+			            <li><hr class="dropdown-divider header-h3"></li>
+			            <li><a class="dropdown-item header header-h3" href="#">自創品牌商品</a></li>
+			            <li><hr class="dropdown-divider header"></li>
+			            <li><a class="dropdown-item header header-h3" href="#">品牌選物專區</a></li>
+			            <li><hr class="dropdown-divider"></li>
+			            <li><a class="dropdown-item header header-h3" href="#">優惠組合專區</a></li>
+			          </ul>
+			        </li>
+
+		        <li class="nav-item dropdown">
+		          <a class="nav-link dropdown-toggle header-h3" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+		           活動訊息
+		          </a>
+		          <ul class="dropdown-menu " aria-labelledby="navbarDropdownMenuLink">
+		            <li><a class="dropdown-item header-h3" href="#">最新活動</a></li>
+		            <li><hr class="dropdown-divider"></li>
+		            <li><a class="dropdown-item header-h3" href="#">合作夥伴</a></li>
+		            <li><hr class="dropdown-divider"></li>
+		            <li><a class="dropdown-item header-h3" href="#">活動照片</a></li>
+		            <li><hr class="dropdown-divider"></li>
+		            <li><a class="dropdown-item header-h3" href="#">贊助方案</a></li>
+		    	   </ul>
+	            </li>
+	  		</li>
+		</ul>
+	</div>
+
+
+		<div class="container">
+		<div class="slides">
+			<img src="https://img.onl/mvhtDB "width="300" height="300"/>
+			<br>
+			<img src="https://img.onl/JXbQx6 "width="300" height="300"/>
+				<br>
+			<img src="https://img.onl/0laxOT "width="300" height="300"/>
+				<br>
+			<img src="https://img.onl/gnosyE "width="300" height="300"/>
+				<br>
+		</div>
+		</div>
+
+		<br>
+		<br>
+
+	    		<h3 class="mx-5">消費流程 How it works?</h3>
+
+			<!-- 第一個 -->
+		   	<div class="row featurette m-5 justify-content-end">
+			    <div class="col-md-7 text-content  borderstyle">
+			 <br>
+			 <br>
+			     <h3 class="featurette-heading fontcolor mx-3">淨重<span class="fontcolor">Tear</span></h3> <h3 class="featurette-heading fontsecondcolor mx-5">淨重<span class="fontsecondcolor">Tear</span></h3> 
+			 <br>
+			     <h3 class="lead mx-3">帶著環保容器至櫃檯扣除容器淨重，繼續選購您所想要的商品</h3>
+			     <br>
+			      <button type="button" class="btn btn-outline-secondary mx-3  pp">沒有環保容器？歡迎至店選購</button>
+
+			       
+			     <div class="btn-wrap d-flex justify-content-end">
+			       <a href="https://google.com" class="btn btn-#5E6C5B btndetail">閱讀更多</a>
+			     </div>
+			    </div>
+
+			    <div class="col-md-5 img-content px-0">
+			      <img src="https://img.onl/ofkn4t" class="card-img-square pic" width="500" height="300" >
+			    </div>
+			</div>
+
+			 <br>
+
+		     <!-- 第二個 -->
+		    <div class="row featurette m-5">
+		      <div class="col-md-7 order-md-2 px-5 borderstyle">
+		     <br>
+		     <br>
+		        <h3 class="featurette-heading fontcolor">填物<span class="fontcolor">Fill</span></h3><h3 class="featurette-heading fontsecondcolor mx-4">填物<span class="fontsecondcolor">Fill</span></h3> 
+			    <br>
+			    <h3 class="lead mx-2">承裝所需商品</h3>
+			    <p class="lead mx-2 pp">*請勿將液態與固態商品混合承裝</p>
+
+			    <div class="btn-wrap d-flex justify-content-end px-6">
+			        <a href="https://google.com" class="btn btn-#5E6C5B btndetail">閱讀更多</a>
+			     </div>
+		      </div>
+		      <div class="col-md-5 order-md-1 ">
+		       <img src="https://img.onl/mLSdwY" class="pic" width="500" height="300" >
+		      </div>
+		    </div>
+
+		     <br>
+
+		     <!-- 第三個 -->
+		    <div class="row featurette m-5 justify-content-end">
+			    <div class="col-md-7 text-content borderstyle">
+			    <br>
+		     	<br>
+			        <h3 class="featurette-heading fontcolor mx-4">秤重<span class="fontcolor">Tear</span></h3> <h3 class="featurette-heading fontsecondcolor mx-5">秤重<span class="fontsecondcolor">Weigh</span></h2> 
+			        <br>
+			        <h3 class="lead mx-4">至櫃檯請工作人員協助秤重</h3>
+			        <p class="lead mx-2 pp mx-4">*最低購買單位：100g / 100ml</p>
+			       <!--  <a href="#" class="btn btn-#5E6C5B btndetail px-3 my-5">read more</a> -->
+			      <div class="btn-wrap d-flex justify-content-end">
+			        <a href="https://google.com" class="btn btn-#5E6C5B btndetail">閱讀更多</a>
+			      </div>
+			    </div>
+
+		      <div class="col-md-5 img-content px-0">
+		      	<img src="https://img.onl/0tBqpU" class="card-img-square pic" width="500" height="300" >
+		      </div>
+		    </div>
+
+		     <br>
+
+		     <!-- 第四個 -->
+		    <div class="row featurette m-5">
+		      <div class="col-md-7 order-md-2 px-5 borderstyle">
+		     <br>
+		     <br>
+		       <h3 class="featurette-heading fontcolor">付款<span class="fontcolor">Pay</span></h3><h3 class="featurette-heading fontsecondcolor mx-4">付款<span class="fontsecondcolor">Pay</span></h3> 
+			    <br>
+			    <h3 class="lead mx-4">至櫃檯完成結帳</h3>
+			   	<p class="lead mx-2 pp mx-4">謝謝你，為地球出了一份力量！</p>
+
+			      <div class="btn-wrap d-flex justify-content-end">
+			        <a href="https://google.com" class="btn btn-#5E6C5B btndetail">閱讀更多</a>
+			      </div>
+		      </div>
+
+		      <div class="col-md-5 order-md-1">
+		       <img src="https://img.onl/TEu9rN" class="pic" width="500" height="300" >
+		      </div>
+		    </div>
+	</div>
+
+	<br>
+	<br>
+
+	<!-- footer -->
+	<div class="container">
+    <div class="footer bgc-lg pt-56 pb-56 mt-112">
+
+              <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <h2>
+                        減塑環保生活<br> 現在開始
+                      </h2>
+                      <div class="mt-32 border-1-s-dg border-r-24 d-block ">
+                        <a href="#" class="nav-link p-0 text-muted">
+                          <p class="pl-24 pt-2 pb-2 m-0">
+                            加入會員 →
+                          </p>
+                          
+                        </a>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="row ta-c">
+                        <div class="col">
+                          <p class="fw-b">會員資訊</p>
+                          <ul class="p-0">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">會員登入</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">忘記密碼</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">消費紀錄</a></li>
+                          </ul>
+                        </div>
+                        <div class="col">
+                          <p class="fw-b"> 購物指南</p>
+                          <ul class="p-0">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">購物流程</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">商品總覽</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">常見問題</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">退換貨方式</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+
+                    <div class="d-f">
+                            <a><img src="https://img.onl/zPBzMS" alt="pin" class="w24 mr-8 mb-2"></a>
+                            <a>臺北市松山區南京東路26號</a>
+                          </div>
+
+                           <div class="d-f">
+                            <a><img src="https://img.onl/9XQl72" alt="pin" class="w24 mr-8 mb-2"></a>
+                            <a>週二至週日11:00~21:00</a>
+                          </div>
+
+                            <div class="d-f">
+                            <a><img src="https://img.onl/cO7V0U" alt="pin" class="w24 mr-8 mb-2"></a>
+                            <a>(02)1234-5678</a>
+                          </div>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</body>
+</html>
