@@ -266,7 +266,7 @@ ol, ul {
 	<div class="container">
 	<ul class="nav d-flex justify-content-center align-items-center m-5 headerdetail">
 			<li class="nav-item">
-			  <a class="nav-link header-h3" aria-current="page " href="#">關於我們</a>
+			  <a class="nav-link header-h3" aria-current="page " href="https://y1zh8.github.io/Go-Green/navbar.html">關於我們</a>
 				  </li>
 				  <li class="nav-item">
 				    <a class="nav-link header-h3" href="#">購物流程</a>
