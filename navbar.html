@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script> src="https://kit.fontawesome.com/a079d05399.js"</script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+<style type="text/css">
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+header{
+	width: 100%;
+	height: 40vh;
+	background-color: #F2F2F2;
+	margin-bottom: 70px;	
+}
+nav{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+nav a{
+	text-decoration: none;
+	color: black;
+}
+
+nav a img{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 150px;
+	height: 150px;
+		top: 140px;
+	transition: 1s ease-in-out;
+}
+ul:first-child {
+	margin-right: 5%;
+}
+  
+ul:last-child {
+	margin-left: 5%;
+}
+ul li{
+	position: relative;
+	display: inline-block;
+	font-size: 22px;
+	margin: 0px 30px;
+	text-transform: uppercase;
+	top: 160px;
+}
+ul li:after {
+	content: '';
+		 	position: absolute;
+		 	left: 50%;
+		 	right: 50%;
+		 	bottom: -5px;
+		 	hieght: 0;
+		 	border-bottom: 1px solid black;
+		 	transition: .3s;
+}
+ul li:hover:after {
+	left: 0;
+	right: 0;
+}
+.body{
+	padding: 100px 0;
+
+}
+.wrap{
+	width: 1200px;
+	margin: auto;
+}
+.item{
+	display: flex;
+	align-items: center;
+	margin-bottom: 70px;
+	background-color: #F2F2F2;
+}
+.item .pic{
+	width: 55%;
+}
+.item .text{
+	width: 55%;
+}
+.item h2{
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+.item p{
+	font-size: 20px;
+	padding: 0 20px;
+	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+/*footer{
+	position: fixed;
+	bottom: 0px;
+	width: 100%;
+	background-color: #D9D9D9;
+}
+
+.main-content{
+	display: flex;
+}
+
+.main-content left-box{
+	flex-basis: 50%;
+	padding: 10px 20px;*/
+}
+
+ footer{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	background-color: linear-gradient(to right,#D9D9D9, #F2F2F2 );
+	color: black;
+	padding: 30px 0 30px;
+	border-top-left-radius:125px;
+	font-size:14px;
+	line-height: 20px;
+}
+.row{
+	width: 85%;
+	margin: auto;
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.col{
+	flex-basis: 20%;
+	padding: 10px;
+
+}
+.logo{
+	width: 80px;
+	margin-bottom: 30px;
+}
+.col h3{
+	width: fit-content;
+	margin-bottom: 40px;
+	position: relative;
+	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+.email-id{
+	width: fit-content;
+	border-bottom: 1px solid blue;
+	margin: 20px 0;
+}
+ol li {
+	list-style: none;
+	margin-bottom: 12px;
+}
+ol li a {
+	text-decoration: none;
+	color: black;
+	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+form{
+	padding-bottom: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 1px solid black;
+	margin-bottom: 50px;
+}
+form input{
+	width: 100%;
+	background: transparent;
+	color: black;
+	border: 0;
+	outline: none;
+}
+form button{
+	background: transparent;
+	border: 0;
+	outline: none;
+	cursor: pointer;
+}
+hr{
+	width: 90%;
+	border: 0;
+	border-bottom: 2px solid gray;
+	margin: 20px auto;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+	<nav>
+		<ul>
+			<li><a href="#">關於我們 </a></li>
+			<li><a href="#">服務流程</a></li>
+		</ul>
+		<a href="#">
+			<img src="https://raw.githubusercontent.com/y1zh8/Go-Green/main/img/logo.png" alt="go green"></img>
+		</a>
+		<ul>
+			<li><a href="#">商品</a></li>
+			<li><a href="#">最新活動</a></li>
+		</ul>
+	</nav>
+</header>
+
+<div class="wrap">
+	<!-- 	-------item 1  -->
+	<div class="item">
+		<div class="pic">
+			 <img src="https://img.onl/Puy4RT" width="600px" height="400px" style="opacity: 85%;">
+		</div>
+		<div class="txt">
+				<h2>品牌故事</h2>
+				<p>我們是一群熱愛大自然、喜歡戶外活動的年輕人。
+小時候對大海與沙灘的印象是廣闊無邊的水藍色光澤，和細軟的柔沙，
+然而在某次因緣際會下參與的淨灘活動，海灘上，印入眼簾的卻是人們無止境的垃圾足跡，讓我們萌生了想開無包裝商店的想法</p>
+		</div>
+	</div>	
+	<div class="item">
+	<!-- -------item2 -->
+			<div class="txt">
+				<h2>品牌理念</h2>
+				<p>你有想過零包裝、零塑膠的生活嗎？愛地球，從來就不是件難事！需要每個人的實際付出，出門隨手帶著環保容器，購入所需商品，不過度浪費是我們的理念，今天就讓你們一起來加入我們，為我們居住、美好的環境盡一份最大的心力!</p>
+			</div>
+			<div class="pic">
+				 <img src="https://img.onl/10lkLr " width="600px" height="400px">
+			</div>
+	</div>	
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col">
+			<div class="items">
+				<img src="https://picsum.photos/300/?randoms10" class="w-100">
+				<p>Lorem ipsum dolor sit amet.</p>
+			</div>
+		</div><div class="col">
+			<div class="items">
+				<img src="https://picsum.photos/300/?randoms10" class="w-100">
+				<p>Lorem ipsum dolor sit amet.</p>
+			</div>
+		</div><div class="col">
+			<div class="items">
+				<img src="https://picsum.photos/300/?randoms10" class="w-100">
+				<p>Lorem ipsum dolor sit amet.</p>
+			</div>
+		</div><div class="col">
+			<div class="items">
+				<img src="https://picsum.photos/300/?randoms10" class="w-100">
+				<p>Lorem ipsum dolor sit amet.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<hr>
+
+<footer>
+	<div class="row">
+		<div class="col">
+			<img src="https://raw.githubusercontent.com/y1zh8/Go-Green/main/img/logo.png" alt="go green" width="100px" height="100px"></img>
+			<p>簡單生活，愛護地球。
+零塑 , 環保再利用; 地球, 永續再發展
+Go Green, Play Smart
+ </p>
+		</div>
+		<div class="col">
+			<h3>辦公室</h3>
+			<p>成功路</p>
+			<p>台北內湖區</p>
+			<p class="email-id">123456@gmail.com</p>
+			<h4>+8869-123-465</h4>
+		</div>
+		<div class="col">
+			<h3>連結</h3>
+			<ol>
+				<li><a href="" >首頁</a></li>
+				<li><a href="" >服務流程</a></li>
+				<li><a href="" >關於我們</a></li>
+				<li><a href="" ></a>常見問題</li> 	
+				<li><a href="" >聯絡我們</a></li>
+			</ol>
+		</div>
+		<div class="col">
+			<h3>加入會員</h3>
+			<form>
+				<input type="email" placeholder="輸入您的信箱" required>
+			</form>
+		</div>
+	</div>
+</footer>
+
+
+
+
+
+</body>
+</html>
+
